@@ -1,0 +1,1564 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/" timeStamp="2017-10-19T13:50:56Z" uuid="18a2777d-4a92-43d4-bc40-1354463f097b">
+    <config xmlns="http://www.xfa.org/schema/xci/3.0/">
+        <agent name="designer">
+            <!--  [0..n]  -->
+            <destination>pdf</destination>
+            <pdf>
+                <!--  [0..n]  -->
+                <fontInfo/>
+            </pdf>
+        </agent>
+        <present>
+            <!--  [0..n]  -->
+            <pdf>
+                <!--  [0..n]  -->
+                <version>1.7</version>
+                <adobeExtensionLevel>8</adobeExtensionLevel>
+                <renderPolicy>client</renderPolicy>
+                <creator>Adobe LiveCycle Designer 11.0</creator>
+                <producer>Adobe LiveCycle Designer 11.0</producer>
+                <scriptModel>XFA</scriptModel>
+                <interactive>1</interactive>
+                <tagged>1</tagged>
+                <fontInfo>
+                    <embed>1</embed>
+                </fontInfo>
+                <compression>
+                    <level>6</level>
+                    <compressLogicalStructure>1</compressLogicalStructure>
+                    <compressObjectStream>1</compressObjectStream>
+                </compression>
+                <linearized>1</linearized>
+                <silentPrint>
+                    <addSilentPrint>0</addSilentPrint>
+                    <printerName/>
+                </silentPrint>
+                <viewerPreferences>
+                    <duplexOption>simplex</duplexOption>
+                    <numberOfCopies>0</numberOfCopies>
+                    <printScaling>appDefault</printScaling>
+                    <pickTrayByPDFSize>0</pickTrayByPDFSize>
+                    <enforce/>
+                    <ADBE_JSDebugger>delegate</ADBE_JSDebugger>
+                    <ADBE_JSConsole>delegate</ADBE_JSConsole>
+                    <addViewerPreferences>0</addViewerPreferences>
+                </viewerPreferences>
+            </pdf>
+            <common>
+                <log>
+                    <to>memory</to>
+                    <mode>overwrite</mode>
+                </log>
+                <template>
+                    <base>C:\Users\SamuelHuylebroeck\Documents\XFA\</base>
+                </template>
+            </common>
+            <script>
+                <runScripts>server</runScripts>
+            </script>
+            <xdp>
+                <packets>*</packets>
+            </xdp>
+            <destination>pdf</destination>
+            <output>
+                <to>uri</to>
+                <uri>C:\Users\SamuelHuylebroeck\Documents\XFA\iText XFA Invoice.pdf</uri>
+            </output>
+        </present>
+        <psMap>
+            <font posture="normal" psName="Calibri-Bold" typeface="Calibri" weight="bold"/>
+            <font posture="normal" psName="Calibri" typeface="Calibri" weight="normal"/>
+        </psMap>
+        <acrobat>
+            <acrobat7>
+                <dynamicRender>required</dynamicRender>
+            </acrobat7>
+            <common>
+                <versionControl sourceBelow="maintain"/>
+                <data>
+                    <xsl>
+                        <uri/>
+                    </xsl>
+                    <outputXSL>
+                        <uri/>
+                    </outputXSL>
+                </data>
+                <template>
+                    <base>C:\Users\SamuelHuylebroeck\Documents\XFA\</base>
+                    <relevant/>
+                    <uri/>
+                </template>
+            </common>
+            <autoSave/>
+            <validate>preSubmit</validate>
+        </acrobat>
+    </config>
+    
+    <template xmlns="http://www.xfa.org/schema/xfa-template/3.3/">
+        <?formServer defaultPDFRenderFormat acrobat10.0dynamic?>
+        <subform layout="tb" locale="en_US" name="iText_XFAInvoice" restoreState="auto">
+            <pageSet>
+                <pageArea id="Page1" name="Page">
+                    <contentArea h="284.3mm" id="main_content_area_ID" name="main_content_area" w="197.3mm" x="6.35mm"/>
+                    <contentArea h="22.225mm" id="Content_Contact_Details_ID" name="Content_Contact_Details" w="139.7mm" x="6.35mm" y="19.05mm"/>
+                    <medium long="297mm" short="210mm" stock="a4"/>
+                    <contentArea h="225.425mm" id="Order_ContentArea_ID" name="Order_ContentArea" w="196.85mm" x="6.35mm" y="44.45mm"/>
+                    <draw h="15.875mm" name="iTextLogo" w="114.3mm" x="6.35mm" y="3.175mm">
+                        <value>
+                            <image contentType="image/png" href=".\Resources\ITSC Logo Horizontal RGB 300dpi.png"/>
+                        </value>
+                        <ui>
+                            <imageEdit/>
+                        </ui>
+                    </draw>
+                    <draw name="Text_iTextOfficeInfo" usehref=".#som($template.#subform.designer__stylesheet.TextStyle1)" x="146.05mm" y="3.175mm">
+                        <ui>
+                            <textEdit multiLine="1"/>
+                        </ui>
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                    <p style="font-family:Calibri;color:#084977;font-weight:bold">iText Software BVBA</p>
+                                    <p style="font-family:Calibri">Business center 'De Punt', Kerkstraat 108</p>
+                                    <p style="font-family:Calibri">9050 Gent (Gentbrugge), Belgium</p>
+                                    <p style="font-family:Calibri">T: +32 92 98 02 31</p>
+                                    <p style="font-family:Calibri">F: +32 92 70 33 75</p>
+                                    <p style="font-family:Calibri">
+                                        E:
+                                        <span style="xfa-spacerun:yes"> </span>
+                                        <span style="color:#0000ff">sales.isb@itextpdf.com</span>
+                                    </p>
+                                    <p style="font-family:Calibri">
+                                        W:
+                                        <span style="xfa-spacerun:yes"> </span>
+                                        <span style="color:#0000ff">www.itextpdf.com</span>
+                                    </p>
+                                    <p style="font-family:Calibri">VAT: BE 0838.649.627</p>
+                                    <p style="font-family:Calibri">RPR Gent, afdeling Gent</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <?renderCache.bounds 150004 96166 0 0 1417 1417 0 0?>
+                        <?renderCache.textRun 20 iText Software BVBA  0 1417 8167 8 73 119 "Calibri" 1 0 9000 ISO-8859-1?>
+                        <?renderCache.textRun 42 Business center 'De Punt', Kerkstraat 108  0 1417 18967 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?>
+                        <?renderCache.textRun 32 9050 Gent (Gentbrugge), Belgium  0 1417 29767 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?>
+                        <?renderCache.textRun 19 T: +32 92 98 02 31  0 1417 40567 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?>
+                        <?renderCache.textRun 19 F: +32 92 70 33 75  0 1417 51367 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?>
+                        <?renderCache.textRun 3 E:  0 1417 62167 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?>
+                        <?renderCache.textRun 23 sales.isb@itextpdf.com  0 10254 62167 0 0 255 "Calibri" 0 0 9000 ISO-8859-1?>
+                        <?renderCache.textRun 3 W:  0 1417 72967 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?>
+                        <?renderCache.textRun 17 www.itextpdf.com  0 13867 72967 0 0 255 "Calibri" 0 0 9000 ISO-8859-1?>
+                        <?renderCache.textRun 21 VAT: BE 0838.649.627  0 1417 83767 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?>
+                        <?renderCache.textRun 23 RPR Gent, afdeling Gent 0 1417 94567 0 0 0 "Calibri" 0 0 9000 ISO-8859-1?>
+                    </draw>
+                    <draw h="3.175mm" name="RectangleTop" w="196.85mm" x="6.35mm" y="41.275mm">
+                        <value>
+                            <rectangle>
+                                <edge/>
+                                <fill>
+                                    <color value="0,64,128"/>
+                                    <linear>
+                                        <color value="0,0,255"/>
+                                    </linear>
+                                </fill>
+                                <corner radius="5.08mm"/>
+                            </rectangle>
+                        </value>
+                    </draw>
+                    <draw h="3.175mm" name="RectangleBottom" w="196.85mm" x="6.35mm" y="269.875mm">
+                        <value>
+                            <rectangle>
+                                <edge/>
+                                <fill>
+                                    <color value="0,64,128"/>
+                                    <linear>
+                                        <color value="0,0,255"/>
+                                    </linear>
+                                </fill>
+                                <corner radius="5.08mm"/>
+                            </rectangle>
+                        </value>
+                    </draw>
+                    <draw h="9.525mm" name="Text_Footer" w="196.85mm" x="6.35mm" y="273.05mm">
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <value>
+                            <exData contentType="text/html">
+                                <body xmlns="http://www.w3.org/1999/xhtml" xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+                                    <p style="font-family:Calibri">General terms &amp; conditions: www.itextpdf.com/legal</p>
+                                    <p style="font-family:Calibri">Price is exclusive of any tax, levy or similar governmental charge that may be assessed by any jurisdiction</p>
+                                </body>
+                            </exData>
+                        </value>
+                        <font baselineShift="0pt" size="8pt" typeface="Calibri-Bold" weight="bold">
+                            <fill>
+                                <color value="8,73,118"/>
+                            </fill>
+                        </font>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <para marginLeft="0pt" marginRight="0pt" spaceAbove="0pt" spaceBelow="0pt" textIndent="0pt"/>
+                        <?renderCache.bounds 555166 24166 0 0 1417 1417 0 0?>
+                        <?renderCache.textRun 51 General terms & conditions: www.itextpdf.com/legal  0 1417 7417 8 73 118 "Calibri" 1 0 8000 ISO-8859-1?>
+                        <?renderCache.textRun 107 Price is exclusive of any tax, levy or similar governmental charge that may be assessed by any jurisdiction 0 1417 17017 8 73 118 "Calibri" 1 0 8000 ISO-8859-1?>
+                    </draw>
+                    <?templateDesigner expand 1?>
+                </pageArea>
+                <?templateDesigner expand 1?>
+            </pageSet>
+            <subform h="18.842mm" name="CustomerDetails" w="139.7mm">
+                <breakBefore target="Page.Content_Contact_Details" targetType="contentArea"/>
+                <field h="9mm" name="TextField_CompanyName" w="62mm" y="0.148mm">
+                    <ui>
+                        <textEdit>
+                            <border>
+                                <edge stroke="lowered"/>
+                            </border>
+                            <margin/>
+                        </textEdit>
+                    </ui>
+                    <font typeface="Myriad Pro"/>
+                    <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                    <para vAlign="middle"/>
+                    <caption reserve="25mm">
+                        <para vAlign="middle"/>
+                        <value>
+                            <text>Company Name</text>
+                        </value>
+                    </caption>
+                </field>
+                <field h="9mm" name="TextField_ContactPerson" w="62mm" y="9.525mm">
+                    <ui>
+                        <textEdit>
+                            <border>
+                                <edge stroke="lowered"/>
+                            </border>
+                            <margin/>
+                        </textEdit>
+                    </ui>
+                    <font typeface="Myriad Pro"/>
+                    <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                    <para vAlign="middle"/>
+                    <caption reserve="25mm">
+                        <para vAlign="middle"/>
+                        <value>
+                            <text>Contact Person</text>
+                        </value>
+                    </caption>
+                </field>
+                <field h="9mm" name="TextField_email" w="76.2mm" x="63.5mm" y="0mm">
+                    <ui>
+                        <textEdit>
+                            <border>
+                                <edge stroke="lowered"/>
+                            </border>
+                            <margin/>
+                        </textEdit>
+                    </ui>
+                    <font typeface="Myriad Pro"/>
+                    <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                    <para vAlign="middle"/>
+                    <caption reserve="34.6648mm">
+                        <para vAlign="middle"/>
+                        <value>
+                            <text>e-mail</text>
+                        </value>
+                    </caption>
+                </field>
+                <field h="9mm" name="NumericField_TelephoneNumber" w="76.2mm" x="63.5mm" y="9.377mm">
+                    <ui>
+                        <textEdit>
+                            <border>
+                                <edge stroke="lowered"/>
+                            </border>
+                            <margin/>
+                        </textEdit>
+                        <picture>text{'('999')' 999-9999}</picture>
+                    </ui>
+                    <font typeface="Myriad Pro"/>
+                    <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                    <para vAlign="middle"/>
+                    <caption reserve="34.961mm">
+                        <para vAlign="middle"/>
+                        <value>
+                            <text>Telephone number</text>
+                        </value>
+                    </caption>
+                    <validate>
+                        <picture>text{'('999')' 999-9999}</picture>
+                    </validate>
+                    <bind>
+                        <picture>text{'('999')' 999-9999}</picture>
+                    </bind>
+                    <format>
+                        <picture>text{'('999')' 999-9999}</picture>
+                    </format>
+                </field>
+                <?templateDesigner expand 0?>
+            </subform>
+            <subform layout="tb" name="Orders" usehref=".#som($template.#subform.designer__stylesheet.SubformStyle1)" w="197.3mm">
+                <subform id="Subform_Core_ID" layout="lr-tb" name="Subform_Core" w="194.125mm">
+                    <bind match="none"/>
+                    <overflow target="Page.Order_ContentArea"/>
+                    <subform h="59.257mm" name="Subform_CoreDescription" w="66.675mm">
+                        <draw h="28.575mm" name="Text_CoreDescription" w="34.925mm" x="3.175mm" y="12.7mm">
+                            <ui>
+                                <textEdit/>
+                            </ui>
+                            <value>
+                                <text>The iText7 Core platform provides you with all the necessary tools to create beautiful PDFs</text>
+                            </value>
+                            <font typeface="Myriad Pro"/>
+                            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                            <?renderCache.bounds 96166 78166 0 0 1417 1417 0 0?>
+                            <?renderCache.textRun 16 The iText7 Core  0 1417 8917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+                            <?renderCache.textRun 22 platform provides you  0 1417 20917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+                            <?renderCache.textRun 23 with all the necessary  0 1417 32917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+                            <?renderCache.textRun 16 tools to create  0 1417 44917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+                            <?renderCache.textRun 14 beautiful PDFs 0 1417 56917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+                        </draw>
+                        <draw h="5.2331mm" name="Text_CoreTitle" w="29.2864mm" x="3.175mm" y="3.175mm">
+                            <ui>
+                                <textEdit/>
+                            </ui>
+                            <value>
+                                <text>iText7 Core</text>
+                            </value>
+                            <font typeface="Myriad Pro"/>
+                            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                            <?renderCache.bounds 80183 12000 0 0 1417 1417 0 0?>
+                            <?renderCache.textRun 11 iText7 Core 0 1417 8917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+                        </draw>
+                        <draw h="57.15mm" name="Rectangle2" w="66.675mm" x="0in" y="0in">
+                            <value>
+                                <rectangle>
+                                    <edge/>
+                                    <corner radius="5.08mm"/>
+                                </rectangle>
+                            </value>
+                        </draw>
+                        <draw h="28.575mm" name="Image_Logo" w="28.575mm" x="38.1mm" y="12.7mm">
+                            <value>
+                                <image aspect="fit" contentType="image/png" href=".\Resources\CoreEngine.png"/>
+                            </value>
+                            <ui>
+                                <imageEdit/>
+                            </ui>
+                        </draw>
+                        <field h="6mm" name="Button_CoreOrder" w="28.575mm" x="0in" y="50.8mm">
+                            <ui>
+                                <button highlight="inverted"/>
+                            </ui>
+                            <font typeface="Myriad Pro"/>
+                            <caption>
+                                <value>
+                                    <text>Additional Order</text>
+                                </value>
+                                <para hAlign="center" vAlign="middle"/>
+                                <font typeface="Myriad Pro">
+                                    <fill>
+                                        <color/>
+                                    </fill>
+                                </font>
+                            </caption>
+                            <border hand="right">
+                                <edge stroke="raised"/>
+                                <fill>
+                                    <color value="212,208,200"/>
+                                </fill>
+                            </border>
+                            <bind match="none"/>
+                            <event activity="click" name="event__click" ref="$">
+                                <script contentType="application/x-javascript">//+ GENERATED - DO NOT EDIT (ID:B94117D5-C60A-4210-AAF5-49512973B91A CRC:3771506030)
+//+ Type: Action
+//+ Result1: AddInstance("$Node2")
+//+ Node2: iText_XFAInvoice[0].Orders[0].Subform_Core[0].Subform_CoreOrders[0].Subform_Order[0]
+//+ Node1: iText_XFAInvoice[0].Orders[0].Subform_Core[0].Subform_CoreDescription[0].Button_CoreOrder[0]
+//+ Condition1: Button("$Node1","click")
+//+ ActionName: Button_CoreOrder.click
+this.resolveNode('Subform_CoreOrders._Subform_Order').addInstance(1);
+if (xfa.host.version &lt; 8) {
+	xfa.form.recalculate(1);
+}
+//-
+</script>
+                            </event>
+                        </field>
+                        <field h="6mm" name="Button_CoreRemove" w="28.575mm" x="38.1mm" y="50.8mm">
+                            <ui>
+                                <button highlight="inverted"/>
+                            </ui>
+                            <font typeface="Myriad Pro"/>
+                            <caption>
+                                <value>
+                                    <text>Remove Last order</text>
+                                </value>
+                                <para hAlign="center" vAlign="middle"/>
+                                <font typeface="Myriad Pro">
+                                    <fill>
+                                        <color/>
+                                    </fill>
+                                </font>
+                            </caption>
+                            <border hand="right">
+                                <edge stroke="raised"/>
+                                <fill>
+                                    <color value="212,208,200"/>
+                                </fill>
+                            </border>
+                            <bind match="none"/>
+                            <event activity="click" name="event__click">
+                                <script contentType="application/x-javascript">//+ GENERATED - DO NOT EDIT (ID:73C57730-A120-4C2B-AACC-9120B0A65813 CRC:1685098291)
+//+ Type: Action
+//+ Result1: RemoveInstance("$Node2","lastindex","")
+//+ Node2: iText_XFAInvoice[0].Orders[0].Subform_Core[0].Subform_CoreOrders[0].Subform_Order[0]
+//+ Node1: iText_XFAInvoice[0].Orders[0].Subform_Core[0].Subform_CoreDescription[0].Button_CoreRemove[0]
+//+ Condition1: Button("$Node1","click")
+//+ ActionName: Button_CoreRemove.click
+this.resolveNode('Subform_CoreOrders._Subform_Order').removeInstance(this.resolveNode('Subform_CoreOrders._Subform_Order').count - 1);
+if (xfa.host.version &lt; 8) {
+	xfa.form.recalculate(1);
+}
+//-
+</script>
+                            </event>
+                        </field>
+                        <proto/>
+                        <?templateDesigner expand 0?>
+                    </subform>
+                    <subform layout="tb" name="Subform_CoreOrders" w="127.45mm">
+                        <subform h="57.15mm" hAlign="right" name="Subform_Order" w="127.086mm">
+                            <occur initial="1" max="3" min="0"/>
+                            <keep previous="none"/>
+                            <breakBefore startNew="0" target="" targetType="auto"/>
+                            <breakAfter target="" targetType="auto"/>
+                            <overflow target="Page.Order_ContentArea"/>
+                            <?templateDesigner expand 0?>
+                            <?designerFragmentSource PHN1YmZvcm0gdXNlaHJlZj0iLlxGcmFnbWVudCBMaWJyYXJ5XFN1YmZvcm1fT3JkZXIueGRwI3Nv
+bSgkdGVtcGxhdGUuZm9ybTEuU3ViZm9ybV9PcmRlcikiIGhBbGlnbj0icmlnaHQiIHhtbG5zPSJo
+dHRwOi8vd3d3LnhmYS5vcmcvc2NoZW1hL3hmYS10ZW1wbGF0ZS8zLjMvIgo+PG9jY3VyIG1heD0i
+MyIgaW5pdGlhbD0iMSIgbWluPSIwIgovPjxrZWVwIHByZXZpb3VzPSJub25lIgovPjxicmVha0Jl
+Zm9yZSB0YXJnZXQ9IiIgdGFyZ2V0VHlwZT0iYXV0byIgc3RhcnROZXc9IjAiCi8+PGJyZWFrQWZ0
+ZXIgdGFyZ2V0PSIiIHRhcmdldFR5cGU9ImF1dG8iCi8+PG92ZXJmbG93IHRhcmdldD0iUGFnZS5P
+cmRlcl9Db250ZW50QXJlYSIKLz48P3RlbXBsYXRlRGVzaWduZXIgZXhwYW5kIDA/Pjwvc3ViZm9y
+bQo+?>
+                            <draw h="57.15mm" name="Rectangle1" w="127mm">
+                                <value>
+                                    <rectangle>
+                                        <corner radius="5.08mm"/>
+                                        <edge/>
+                                    </rectangle>
+                                </value>
+                            </draw>
+                            <field h="9mm" name="NumericField_NrLicenses" w="57.326mm" x="63.677mm" y="14.463mm">
+                                <caption reserve="24.8733mm">
+                                    <font typeface="Myriad Pro"/>
+                                    <para vAlign="middle"/>
+                                    <value>
+                                        <text># Licenses</text>
+                                    </value>
+                                </caption>
+                                <font typeface="Myriad Pro"/>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <ui>
+                                    <numericEdit>
+                                        <border>
+                                            <edge stroke="lowered"/>
+                                        </border>
+                                        <margin/>
+                                    </numericEdit>
+                                </ui>
+                            </field>
+                            <field access="readOnly" h="9mm" name="NumericField_TotalPrice" w="47.8mm" x="73.203mm" y="44.623mm">
+                                <calculate>
+                                    <script contentType="application/x-javascript">this.rawValue=DecimalField_pricePerLicense.rawValue*NumericField_NrLicenses.rawValue
+
+</script>
+                                </calculate>
+                                <caption reserve="16.3718mm">
+                                    <font typeface="Myriad Pro"/>
+                                    <para vAlign="middle"/>
+                                    <value>
+                                        <text>Total Price</text>
+                                    </value>
+                                </caption>
+                                <font typeface="Myriad Pro"/>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <ui>
+                                    <numericEdit>
+                                        <border>
+                                            <edge stroke="lowered"/>
+                                        </border>
+                                        <margin/>
+                                    </numericEdit>
+                                </ui>
+                                <bind match="none"/>
+                                <format>
+                                    <picture>num{($z,zzz,zz9.99)}</picture>
+                                </format>
+                            </field>
+                            <field h="9mm" name="TextField_CompanyName" w="76.102mm" x="3.175mm" y="3.175mm">
+                                <caption reserve="24.3435mm">
+                                    <font typeface="Myriad Pro"/>
+                                    <para vAlign="middle"/>
+                                    <value>
+                                        <text>Division Name</text>
+                                    </value>
+                                </caption>
+                                <font typeface="Myriad Pro"/>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <ui>
+                                    <textEdit multiLine="1">
+                                        <border>
+                                            <edge stroke="lowered"/>
+                                        </border>
+                                        <margin/>
+                                    </textEdit>
+                                </ui>
+                            </field>
+                            <exclGroup name="RadioButtonList_Language" x="3.175mm" y="12.7mm">
+                                <field h="9.175mm" w="25.4mm">
+                                    <caption placement="right" reserve="19.4mm">
+                                        <font typeface="Myriad Pro"/>
+                                        <para vAlign="middle"/>
+                                        <value>
+                                            <text>Java</text>
+                                        </value>
+                                    </caption>
+                                    <font typeface="Myriad Pro"/>
+                                    <items>
+                                        <integer>1</integer>
+                                    </items>
+                                    <margin leftInset="1mm" rightInset="1mm"/>
+                                    <para vAlign="middle"/>
+                                    <ui>
+                                        <checkButton shape="round">
+                                            <border>
+                                                <edge stroke="lowered"/>
+                                                <fill/>
+                                            </border>
+                                        </checkButton>
+                                    </ui>
+                                </field>
+                                <field h="9.175mm" w="19.05mm" x="12.7mm">
+                                    <caption placement="right" reserve="13.05mm">
+                                        <font typeface="Myriad Pro"/>
+                                        <para vAlign="middle"/>
+                                        <value>
+                                            <text>C#</text>
+                                        </value>
+                                    </caption>
+                                    <font typeface="Myriad Pro"/>
+                                    <items>
+                                        <integer>2</integer>
+                                    </items>
+                                    <margin leftInset="1mm" rightInset="1mm"/>
+                                    <para vAlign="middle"/>
+                                    <ui>
+                                        <checkButton shape="round">
+                                            <border>
+                                                <edge stroke="lowered"/>
+                                                <fill/>
+                                            </border>
+                                        </checkButton>
+                                    </ui>
+                                </field>
+                            </exclGroup>
+                            <field h="9mm" name="DropDownList_Type" w="38.1mm" x="3.53mm" y="23.99mm">
+                                <caption reserve="8.4412mm">
+                                    <font typeface="Myriad Pro"/>
+                                    <para vAlign="middle"/>
+                                    <value>
+                                        <text>Type</text>
+                                    </value>
+                                </caption>
+                                <font typeface="Myriad Pro"/>
+                                <items>
+                                    <text>Production</text>
+                                    <text>Development</text>
+                                </items>
+                                <items presence="hidden" save="1">
+                                    <text>1</text>
+                                    <text>2</text>
+                                </items>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <ui>
+                                    <choiceList>
+                                        <border>
+                                            <edge stroke="lowered"/>
+                                        </border>
+                                        <margin/>
+                                    </choiceList>
+                                </ui>
+                                <event activity="change" name="event__change">
+                                    <script contentType="application/x-javascript">//+ GENERATED - DO NOT EDIT (ID:ECFA2909-E41B-46E0-BE06-77B8F19B0C9B CRC:3995109828)
+//+ Type: Action
+//+ Result2: SetPresence("$Node2","hidden")
+//+ Result1: SetEnabled("$Node2","readOnly")
+//+ Node2: form1[0].Subform_Order[0].TextField_DeveloperAlias[0]
+//+ Node1: form1[0].Subform_Order[0].DropDownList_Type[0]
+//+ Condition1: ListField("$Node1","textselected","Production")
+//+ ActionName: DropDownList_Type.change
+if (xfa.event.newText == "Production") {
+  oTargetField = this.resolveNode("TextField_DeveloperAlias");
+  	oTargetField.access = "readOnly";
+  this.resolveNode("TextField_DeveloperAlias").presence = "hidden";
+}
+//-
+//+ GENERATED - DO NOT EDIT (ID:D269CF98-9829-4677-A5AF-E9DF97471502 CRC:3536004475)
+//+ Type: Action
+//+ Result2: SetPresence("$Node2","visible")
+//+ Result1: SetEnabled("$Node2","open")
+//+ Node2: form1[0].Subform_Order[0].TextField_DeveloperAlias[0]
+//+ Node1: form1[0].Subform_Order[0].DropDownList_Type[0]
+//+ Condition1: ListField("$Node1","textselected","Development")
+//+ ActionName: DropDownList_Type.change
+if (xfa.event.newText == "Development") {
+  oTargetField = this.resolveNode("TextField_DeveloperAlias");
+  	oTargetField.access = "open";
+  this.resolveNode("TextField_DeveloperAlias").presence = "visible";
+}
+//-
+</script>
+                                </event>
+                                <event activity="initialize" name="event__initialize">
+                                    <script contentType="application/x-javascript">//+ GENERATED - DO NOT EDIT (ID:5B8DECA4-01CA-42C3-875E-8F34E1F283DB CRC:175690742)
+//+ Type: Action
+//+ Result3: SetPresence("$Node2","hidden")
+//+ Result2: SetEnabled("$Node2","readOnly")
+//+ Result1: SetFieldValue("$Node1","tovalue","1")
+//+ Node2: form1[0].Subform_Order[0].TextField_DeveloperAlias[0]
+//+ Node1: form1[0].Subform_Order[0].DropDownList_Type[0]
+//+ Condition1: ListField("$Node1","initialized","")
+//+ ActionName: DropDownList_Type.initialize
+this.resolveNode("$").rawValue = "1";
+oTargetField = this.resolveNode("TextField_DeveloperAlias");
+	oTargetField.access = "readOnly";
+this.resolveNode("TextField_DeveloperAlias").presence = "hidden";
+//-
+</script>
+                                </event>
+                            </field>
+                            <field h="9mm" name="DropDownList_ServerDesktop" w="38.276mm" x="3.595mm" y="34.341mm">
+                                <caption reserve="8.3775mm">
+                                    <font typeface="Myriad Pro"/>
+                                    <para vAlign="middle"/>
+                                    <value>
+                                        <text>S/D</text>
+                                    </value>
+                                </caption>
+                                <font typeface="Myriad Pro"/>
+                                <items>
+                                    <text>Server</text>
+                                    <text>Desktop</text>
+                                </items>
+                                <items presence="hidden" save="1">
+                                    <text>1</text>
+                                    <text>2</text>
+                                </items>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <ui>
+                                    <choiceList>
+                                        <border>
+                                            <edge stroke="lowered"/>
+                                        </border>
+                                        <margin/>
+                                    </choiceList>
+                                </ui>
+                            </field>
+                            <field h="9mm" name="TextField_DeveloperAlias" w="68.111mm" x="2.695mm" y="44.582mm">
+                                <caption reserve="23.2965mm">
+                                    <font typeface="Myriad Pro"/>
+                                    <para vAlign="middle"/>
+                                    <value>
+                                        <text>Developer alias</text>
+                                    </value>
+                                </caption>
+                                <font typeface="Myriad Pro"/>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <ui>
+                                    <textEdit>
+                                        <border>
+                                            <edge stroke="lowered"/>
+                                        </border>
+                                        <margin/>
+                                    </textEdit>
+                                </ui>
+                            </field>
+                            <field access="protected" h="9mm" name="DecimalField_pricePerLicense" w="57.15mm" x="63.503mm" y="23.99mm">
+                                <caption reserve="25mm">
+                                    <font typeface="Myriad Pro"/>
+                                    <para vAlign="middle"/>
+                                    <value>
+                                        <text>Price per license</text>
+                                    </value>
+                                </caption>
+                                <font typeface="Myriad Pro"/>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <ui>
+                                    <numericEdit>
+                                        <border>
+                                            <edge stroke="lowered"/>
+                                        </border>
+                                        <margin/>
+                                    </numericEdit>
+                                </ui>
+                                <bind match="none"/>
+                                <format>
+                                    <picture>num{($z,zzz,zz9.99)}</picture>
+                                </format>
+                                <value>
+                                    <integer>3000</integer>
+                                </value>
+                            </field>
+                        </subform>
+                        <bind match="none"/>
+                        <?templateDesigner expand 1?>
+                    </subform>
+                    <breakBefore/>
+                    <breakAfter/>
+                    <?templateDesigner expand 1?>
+                </subform>
+                <subform id="Subform_Core_ID_copy1" layout="lr-tb" name="Subform_pdfHTML" w="194.125mm">
+                    <bind match="none"/>
+                    <overflow target="Page.Order_ContentArea"/>
+                    <subform h="57.298mm" name="Subform_pdfHTMLDescription" w="66.675mm">
+                        <draw h="57.15mm" name="Rectangle2" w="66.675mm" x="0in" y="0in">
+                            <value>
+                                <rectangle>
+                                    <edge/>
+                                    <corner radius="5.08mm"/>
+                                </rectangle>
+                            </value>
+                        </draw>
+                        <draw h="28.575mm" name="Text_pdfHTMLDescription" w="34.925mm" x="3.175mm" y="12.7mm">
+                            <ui>
+                                <textEdit/>
+                            </ui>
+                            <value>
+                                <text>Through arcane incantations and blakc magics, your HTML and CSS will be transformed into mesmerizing pdfs</text>
+                            </value>
+                            <font typeface="Myriad Pro"/>
+                            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                            <?renderCache.bounds 96166 78166 0 0 1417 1417 0 0?>
+                            <?renderCache.textRun 15 Through arcane  0 1417 8917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+                            <?renderCache.textRun 23 incantations and blakc  0 1417 20917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+                            <?renderCache.textRun 18 magics, your HTML  0 1417 32917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+                            <?renderCache.textRun 16 and CSS will be  0 1417 44917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+                            <?renderCache.textRun 17 transformed into  0 1417 56917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+                            <?renderCache.textRun 16 mesmerizing pdfs 0 1417 68917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+                        </draw>
+                        <draw h="5.2331mm" name="Text_pdfHTMLTitle" w="29.2864mm" x="3.175mm" y="3.175mm">
+                            <ui>
+                                <textEdit/>
+                            </ui>
+                            <value>
+                                <text>iText7 pdfHTML</text>
+                            </value>
+                            <font typeface="Myriad Pro"/>
+                            <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                            <?renderCache.bounds 80183 12000 0 0 1417 1417 0 0?>
+                            <?renderCache.textRun 14 iText7 pdfHTML 0 1417 8917 0 0 0 "Myriad Pro" 0 0 10000 ISO-8859-1?>
+                        </draw>
+                        <draw h="28.575mm" name="Image_Logo" w="28.575mm" x="38.1mm" y="12.7mm">
+                            <value>
+                                <image aspect="none" contentType="image/png" href=".\Resources\Logo_pdfHTML.png"/>
+                            </value>
+                            <ui>
+                                <imageEdit/>
+                            </ui>
+                        </draw>
+                        <field h="6mm" name="Button_pdfHTMLOrder" w="28.575mm" x="0in" y="50.8mm">
+                            <ui>
+                                <button highlight="inverted"/>
+                            </ui>
+                            <font typeface="Myriad Pro"/>
+                            <caption>
+                                <value>
+                                    <text>Additional Order</text>
+                                </value>
+                                <para hAlign="center" vAlign="middle"/>
+                                <font typeface="Myriad Pro">
+                                    <fill>
+                                        <color/>
+                                    </fill>
+                                </font>
+                            </caption>
+                            <border hand="right">
+                                <edge stroke="raised"/>
+                                <fill>
+                                    <color value="212,208,200"/>
+                                </fill>
+                            </border>
+                            <bind match="none"/>
+                            <event activity="click" name="event__click" ref="$">
+                                <script contentType="application/x-javascript">//+ GENERATED - DO NOT EDIT (ID:7447AE6C-B860-4E22-930A-227321DCA10E CRC:191637583)
+//+ Type: Action
+//+ Result1: AddInstance("$Node2")
+//+ Node2: iText_XFAInvoice[0].Orders[0].Subform_pdfHTML[0].Subform_pdfHTMLOrders[0].Subform_Order[0]
+//+ Node1: iText_XFAInvoice[0].Orders[0].Subform_pdfHTML[0].Subform_pdfHTMLDescription[0].Button_pdfHTMLOrder[0]
+//+ Condition1: Button("$Node1","click")
+//+ ActionName: Button_pdfHTMLOrder.click
+this.resolveNode('Subform_pdfHTMLOrders._Subform_Order').addInstance(1);
+if (xfa.host.version &lt; 8) {
+	xfa.form.recalculate(1);
+}
+//-
+</script>
+                            </event>
+                        </field>
+                        <field h="6mm" name="Button_pdfHTMLRemove" w="28.575mm" x="38.1mm" y="50.8mm">
+                            <ui>
+                                <button highlight="inverted"/>
+                            </ui>
+                            <font typeface="Myriad Pro"/>
+                            <caption>
+                                <value>
+                                    <text>Remove Last order</text>
+                                </value>
+                                <para hAlign="center" vAlign="middle"/>
+                                <font typeface="Myriad Pro">
+                                    <fill>
+                                        <color/>
+                                    </fill>
+                                </font>
+                            </caption>
+                            <border hand="right">
+                                <edge stroke="raised"/>
+                                <fill>
+                                    <color value="212,208,200"/>
+                                </fill>
+                            </border>
+                            <bind match="none"/>
+                            <event activity="click" name="event__click" ref="$">
+                                <script contentType="application/x-javascript">//+ GENERATED - DO NOT EDIT (ID:EA53D067-13DD-4DF0-B18C-06D21D906F0A CRC:2292749864)
+//+ Type: Action
+//+ Result1: RemoveInstance("$Node2","lastindex","")
+//+ Node2: iText_XFAInvoice[0].Orders[0].Subform_pdfHTML[0].Subform_pdfHTMLOrders[0].Subform_Order[0]
+//+ Node1: iText_XFAInvoice[0].Orders[0].Subform_pdfHTML[0].Subform_pdfHTMLDescription[0].Button_pdfHTMLRemove[0]
+//+ Condition1: Button("$Node1","click")
+//+ ActionName: Button_pdfHTMLRemove.click
+this.resolveNode('Subform_pdfHTMLOrders._Subform_Order').removeInstance(this.resolveNode('Subform_pdfHTMLOrders._Subform_Order').count - 1);
+if (xfa.host.version &lt; 8) {
+	xfa.form.recalculate(1);
+}
+//-
+</script>
+                            </event>
+                        </field>
+                        <proto/>
+                        <?templateDesigner expand 1?>
+                    </subform>
+                    <subform layout="tb" name="Subform_pdfHTMLOrders" w="127.45mm">
+                        <subform h="57.15mm" hAlign="right" name="Subform_Order" w="127.086mm">
+                            <occur initial="1" max="3" min="0"/>
+                            <keep previous="none"/>
+                            <breakBefore startNew="0" target="" targetType="auto"/>
+                            <breakAfter target="" targetType="auto"/>
+                            <overflow target="Page.Order_ContentArea"/>
+                            <?templateDesigner expand 0?>
+                            <?designerFragmentSource PHN1YmZvcm0gdXNlaHJlZj0iLlxGcmFnbWVudCBMaWJyYXJ5XFN1YmZvcm1fT3JkZXIueGRwI3Nv
+bSgkdGVtcGxhdGUuZm9ybTEuU3ViZm9ybV9PcmRlcikiIGhBbGlnbj0icmlnaHQiIHhtbG5zPSJo
+dHRwOi8vd3d3LnhmYS5vcmcvc2NoZW1hL3hmYS10ZW1wbGF0ZS8zLjMvIgo+PG9jY3VyIG1heD0i
+MyIgbWluPSIwIiBpbml0aWFsPSIxIgovPjxrZWVwIHByZXZpb3VzPSJub25lIgovPjxicmVha0Jl
+Zm9yZSB0YXJnZXQ9IiIgdGFyZ2V0VHlwZT0iYXV0byIgc3RhcnROZXc9IjAiCi8+PGJyZWFrQWZ0
+ZXIgdGFyZ2V0PSIiIHRhcmdldFR5cGU9ImF1dG8iCi8+PG92ZXJmbG93IHRhcmdldD0iUGFnZS5P
+cmRlcl9Db250ZW50QXJlYSIKLz48P3RlbXBsYXRlRGVzaWduZXIgZXhwYW5kIDA/Pjwvc3ViZm9y
+bQo+?>
+                            <draw h="57.15mm" name="Rectangle1" w="127mm">
+                                <value>
+                                    <rectangle>
+                                        <corner radius="5.08mm"/>
+                                        <edge/>
+                                    </rectangle>
+                                </value>
+                            </draw>
+                            <field h="9mm" name="NumericField_NrLicenses" w="57.326mm" x="63.677mm" y="14.463mm">
+                                <caption reserve="24.8733mm">
+                                    <font typeface="Myriad Pro"/>
+                                    <para vAlign="middle"/>
+                                    <value>
+                                        <text># Licenses</text>
+                                    </value>
+                                </caption>
+                                <font typeface="Myriad Pro"/>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <ui>
+                                    <numericEdit>
+                                        <border>
+                                            <edge stroke="lowered"/>
+                                        </border>
+                                        <margin/>
+                                    </numericEdit>
+                                </ui>
+                            </field>
+                            <field access="readOnly" h="9mm" name="NumericField_TotalPrice" w="47.8mm" x="73.203mm" y="44.623mm">
+                                <calculate>
+                                    <script contentType="application/x-javascript">this.rawValue=DecimalField_pricePerLicense.rawValue*NumericField_NrLicenses.rawValue
+
+</script>
+                                </calculate>
+                                <caption reserve="16.3718mm">
+                                    <font typeface="Myriad Pro"/>
+                                    <para vAlign="middle"/>
+                                    <value>
+                                        <text>Total Price</text>
+                                    </value>
+                                </caption>
+                                <font typeface="Myriad Pro"/>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <ui>
+                                    <numericEdit>
+                                        <border>
+                                            <edge stroke="lowered"/>
+                                        </border>
+                                        <margin/>
+                                    </numericEdit>
+                                </ui>
+                                <bind match="none"/>
+                                <format>
+                                    <picture>num{($z,zzz,zz9.99)}</picture>
+                                </format>
+                            </field>
+                            <field h="9mm" name="TextField_CompanyName" w="76.102mm" x="3.175mm" y="3.175mm">
+                                <caption reserve="24.3435mm">
+                                    <font typeface="Myriad Pro"/>
+                                    <para vAlign="middle"/>
+                                    <value>
+                                        <text>Division Name</text>
+                                    </value>
+                                </caption>
+                                <font typeface="Myriad Pro"/>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <ui>
+                                    <textEdit multiLine="1">
+                                        <border>
+                                            <edge stroke="lowered"/>
+                                        </border>
+                                        <margin/>
+                                    </textEdit>
+                                </ui>
+                            </field>
+                            <exclGroup name="RadioButtonList_Language" x="3.175mm" y="12.7mm">
+                                <field h="9.175mm" w="25.4mm">
+                                    <caption placement="right" reserve="19.4mm">
+                                        <font typeface="Myriad Pro"/>
+                                        <para vAlign="middle"/>
+                                        <value>
+                                            <text>Java</text>
+                                        </value>
+                                    </caption>
+                                    <font typeface="Myriad Pro"/>
+                                    <items>
+                                        <integer>1</integer>
+                                    </items>
+                                    <margin leftInset="1mm" rightInset="1mm"/>
+                                    <para vAlign="middle"/>
+                                    <ui>
+                                        <checkButton shape="round">
+                                            <border>
+                                                <edge stroke="lowered"/>
+                                                <fill/>
+                                            </border>
+                                        </checkButton>
+                                    </ui>
+                                </field>
+                                <field h="9.175mm" w="19.05mm" x="12.7mm">
+                                    <caption placement="right" reserve="13.05mm">
+                                        <font typeface="Myriad Pro"/>
+                                        <para vAlign="middle"/>
+                                        <value>
+                                            <text>C#</text>
+                                        </value>
+                                    </caption>
+                                    <font typeface="Myriad Pro"/>
+                                    <items>
+                                        <integer>2</integer>
+                                    </items>
+                                    <margin leftInset="1mm" rightInset="1mm"/>
+                                    <para vAlign="middle"/>
+                                    <ui>
+                                        <checkButton shape="round">
+                                            <border>
+                                                <edge stroke="lowered"/>
+                                                <fill/>
+                                            </border>
+                                        </checkButton>
+                                    </ui>
+                                </field>
+                            </exclGroup>
+                            <field h="9mm" name="DropDownList_Type" w="38.1mm" x="3.53mm" y="23.99mm">
+                                <caption reserve="8.4412mm">
+                                    <font typeface="Myriad Pro"/>
+                                    <para vAlign="middle"/>
+                                    <value>
+                                        <text>Type</text>
+                                    </value>
+                                </caption>
+                                <font typeface="Myriad Pro"/>
+                                <items>
+                                    <text>Production</text>
+                                    <text>Development</text>
+                                </items>
+                                <items presence="hidden" save="1">
+                                    <text>1</text>
+                                    <text>2</text>
+                                </items>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <ui>
+                                    <choiceList>
+                                        <border>
+                                            <edge stroke="lowered"/>
+                                        </border>
+                                        <margin/>
+                                    </choiceList>
+                                </ui>
+                                <event activity="change" name="event__change">
+                                    <script contentType="application/x-javascript">//+ GENERATED - DO NOT EDIT (ID:ECFA2909-E41B-46E0-BE06-77B8F19B0C9B CRC:3995109828)
+//+ Type: Action
+//+ Result2: SetPresence("$Node2","hidden")
+//+ Result1: SetEnabled("$Node2","readOnly")
+//+ Node2: form1[0].Subform_Order[0].TextField_DeveloperAlias[0]
+//+ Node1: form1[0].Subform_Order[0].DropDownList_Type[0]
+//+ Condition1: ListField("$Node1","textselected","Production")
+//+ ActionName: DropDownList_Type.change
+if (xfa.event.newText == "Production") {
+  oTargetField = this.resolveNode("TextField_DeveloperAlias");
+  	oTargetField.access = "readOnly";
+  this.resolveNode("TextField_DeveloperAlias").presence = "hidden";
+}
+//-
+//+ GENERATED - DO NOT EDIT (ID:D269CF98-9829-4677-A5AF-E9DF97471502 CRC:3536004475)
+//+ Type: Action
+//+ Result2: SetPresence("$Node2","visible")
+//+ Result1: SetEnabled("$Node2","open")
+//+ Node2: form1[0].Subform_Order[0].TextField_DeveloperAlias[0]
+//+ Node1: form1[0].Subform_Order[0].DropDownList_Type[0]
+//+ Condition1: ListField("$Node1","textselected","Development")
+//+ ActionName: DropDownList_Type.change
+if (xfa.event.newText == "Development") {
+  oTargetField = this.resolveNode("TextField_DeveloperAlias");
+  	oTargetField.access = "open";
+  this.resolveNode("TextField_DeveloperAlias").presence = "visible";
+}
+//-
+</script>
+                                </event>
+                                <event activity="initialize" name="event__initialize">
+                                    <script contentType="application/x-javascript">//+ GENERATED - DO NOT EDIT (ID:5B8DECA4-01CA-42C3-875E-8F34E1F283DB CRC:175690742)
+//+ Type: Action
+//+ Result3: SetPresence("$Node2","hidden")
+//+ Result2: SetEnabled("$Node2","readOnly")
+//+ Result1: SetFieldValue("$Node1","tovalue","1")
+//+ Node2: form1[0].Subform_Order[0].TextField_DeveloperAlias[0]
+//+ Node1: form1[0].Subform_Order[0].DropDownList_Type[0]
+//+ Condition1: ListField("$Node1","initialized","")
+//+ ActionName: DropDownList_Type.initialize
+this.resolveNode("$").rawValue = "1";
+oTargetField = this.resolveNode("TextField_DeveloperAlias");
+	oTargetField.access = "readOnly";
+this.resolveNode("TextField_DeveloperAlias").presence = "hidden";
+//-
+</script>
+                                </event>
+                            </field>
+                            <field h="9mm" name="DropDownList_ServerDesktop" w="38.276mm" x="3.595mm" y="34.341mm">
+                                <caption reserve="8.3775mm">
+                                    <font typeface="Myriad Pro"/>
+                                    <para vAlign="middle"/>
+                                    <value>
+                                        <text>S/D</text>
+                                    </value>
+                                </caption>
+                                <font typeface="Myriad Pro"/>
+                                <items>
+                                    <text>Server</text>
+                                    <text>Desktop</text>
+                                </items>
+                                <items presence="hidden" save="1">
+                                    <text>1</text>
+                                    <text>2</text>
+                                </items>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <ui>
+                                    <choiceList>
+                                        <border>
+                                            <edge stroke="lowered"/>
+                                        </border>
+                                        <margin/>
+                                    </choiceList>
+                                </ui>
+                            </field>
+                            <field h="9mm" name="TextField_DeveloperAlias" w="68.111mm" x="2.695mm" y="44.582mm">
+                                <caption reserve="23.2965mm">
+                                    <font typeface="Myriad Pro"/>
+                                    <para vAlign="middle"/>
+                                    <value>
+                                        <text>Developer alias</text>
+                                    </value>
+                                </caption>
+                                <font typeface="Myriad Pro"/>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <ui>
+                                    <textEdit>
+                                        <border>
+                                            <edge stroke="lowered"/>
+                                        </border>
+                                        <margin/>
+                                    </textEdit>
+                                </ui>
+                            </field>
+                            <field access="protected" h="9mm" name="DecimalField_pricePerLicense" w="57.15mm" x="63.503mm" y="23.99mm">
+                                <caption reserve="25mm">
+                                    <font typeface="Myriad Pro"/>
+                                    <para vAlign="middle"/>
+                                    <value>
+                                        <text>Price per license</text>
+                                    </value>
+                                </caption>
+                                <font typeface="Myriad Pro"/>
+                                <margin bottomInset="1mm" leftInset="1mm" rightInset="1mm" topInset="1mm"/>
+                                <para vAlign="middle"/>
+                                <ui>
+                                    <numericEdit>
+                                        <border>
+                                            <edge stroke="lowered"/>
+                                        </border>
+                                        <margin/>
+                                    </numericEdit>
+                                </ui>
+                                <bind match="none"/>
+                                <format>
+                                    <picture>num{($z,zzz,zz9.99)}</picture>
+                                </format>
+                                <value>
+                                    <integer>3000</integer>
+                                </value>
+                            </field>
+                        </subform>
+                        <bind match="none"/>
+                        <?templateDesigner expand 1?>
+                    </subform>
+                    <breakBefore startNew="1" target="Page.Order_ContentArea" targetType="contentArea"/>
+                    <breakAfter/>
+                    <keep previous="none"/>
+                    <?templateDesigner expand 1?>
+                </subform>
+                <bind match="none" ref=""/>
+                <keep intact="none" previous="none"/>
+                <breakBefore startNew="0" target="Page.Order_ContentArea" targetType="contentArea"/>
+                <overflow leader="" target="Page.Order_ContentArea" trailer=""/>
+                <breakAfter target="Page.Order_ContentArea" targetType="contentArea"/>
+                <?templateDesigner expand 1?>
+            </subform>
+            <desc>
+                <text name="version">11.0.0.20130303.1.892433.887364</text>
+            </desc>
+            <proto>
+                <subform name="designer__stylesheet">
+                    <draw h="41.275mm" hAlign="right" name="TextStyle_iText_GeneralInfo" w="53.918mm">
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <font size="9pt" typeface="Myriad Pro"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <border>
+                            <edge presence="hidden"/>
+                        </border>
+                    </draw>
+                    <draw h="34.925mm" hAlign="right" name="TextStyle1" w="53.918mm">
+                        <ui>
+                            <textEdit/>
+                        </ui>
+                        <font size="9pt" typeface="Myriad Pro"/>
+                        <margin bottomInset="0.5mm" leftInset="0.5mm" rightInset="0.5mm" topInset="0.5mm"/>
+                        <border>
+                            <edge presence="hidden"/>
+                        </border>
+                    </draw>
+                    <subform name="SubformStyle1">
+                        <border>
+                            <edge presence="hidden"/>
+                        </border>
+                        <margin bottomInset="0mm" leftInset="0mm" rightInset="0mm" topInset="0mm"/>
+                    </subform>
+                </subform>
+            </proto>
+            <?templateDesigner expand 1?>
+            <?renderCache.subset "Calibri" 0 0 ISO-8859-1 4 204 51 0003000400110018001C00260027003C0057005A0064007300740102010F0110011A011E01280150015D016C016F01750176017D0189018C0190019A01B501C101C6035503570358037E037F0396039B03EC03ED03EE03EF03F003F103F203F303F403F5043D ABDEFGKPRTVWabcdefgiklmnoprstuwx,:.()'@0123456789+?>
+            <?renderCache.subset "Calibri" 1 0 ISO-8859-1 4 144 36 00030004001100270057005E006400730102010F0110011A011E01280150015A015D0169016F01750176017D0189018C0190019A01B501C001C101C601C7035503570358036C0398 ABGPSTVabcdefghijlmnoprstuvwxy,:./&?>
+            <?renderCache.subset "Myriad Pro" 0 0 ISO-8859-1 4 192 48 000100040005000D000E000F001000110014001800220024002500270029002B002D002E002F0030003100330034003500420043004400450046004700480049004A004C004D004E004F005000510053005400550056005700580059005A005B #$,-./037ACDFHJLMNOPRSTabcdefghiklmnoprstuvwxyz?>
+        </subform>
+        <?templateDesigner DefaultPreviewDynamic 1?>
+        <?templateDesigner DefaultRunAt client?>
+        <?templateDesigner Grid show:1, snap:1, units:0, color:ff8080, origin:(0,0), interval:(125000,125000)?>
+        <?templateDesigner WidowOrphanControl 0?>
+        <?templateDesigner DefaultCaptionFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?>
+        <?templateDesigner DefaultValueFontSettings face:Myriad Pro;size:10;weight:normal;style:normal?>
+        <?templateDesigner DefaultLanguage JavaScript?>
+        <?acrobat JavaScript strictScoping?>
+        <?templateDesigner SaveTaggedPDF 1?>
+        <?templateDesigner SavePDFWithEmbeddedFonts 1?>
+        <?templateDesigner FormTargetVersion 33?>
+        <?templateDesigner Rulers horizontal:1, vertical:1, guidelines:1, crosshairs:0?>
+        <?templateDesigner Zoom 87?>
+    </template>
+    
+    <localeSet xmlns="http://www.xfa.org/schema/xfa-locale-set/2.7/">
+        <locale desc="English (United States)" name="en_US">
+            <calendarSymbols name="gregorian">
+                <monthNames>
+                    <month>January</month>
+                    <month>February</month>
+                    <month>March</month>
+                    <month>April</month>
+                    <month>May</month>
+                    <month>June</month>
+                    <month>July</month>
+                    <month>August</month>
+                    <month>September</month>
+                    <month>October</month>
+                    <month>November</month>
+                    <month>December</month>
+                </monthNames>
+                <monthNames abbr="1">
+                    <month>Jan</month>
+                    <month>Feb</month>
+                    <month>Mar</month>
+                    <month>Apr</month>
+                    <month>May</month>
+                    <month>Jun</month>
+                    <month>Jul</month>
+                    <month>Aug</month>
+                    <month>Sep</month>
+                    <month>Oct</month>
+                    <month>Nov</month>
+                    <month>Dec</month>
+                </monthNames>
+                <dayNames>
+                    <day>Sunday</day>
+                    <day>Monday</day>
+                    <day>Tuesday</day>
+                    <day>Wednesday</day>
+                    <day>Thursday</day>
+                    <day>Friday</day>
+                    <day>Saturday</day>
+                </dayNames>
+                <dayNames abbr="1">
+                    <day>Sun</day>
+                    <day>Mon</day>
+                    <day>Tue</day>
+                    <day>Wed</day>
+                    <day>Thu</day>
+                    <day>Fri</day>
+                    <day>Sat</day>
+                </dayNames>
+                <meridiemNames>
+                    <meridiem>AM</meridiem>
+                    <meridiem>PM</meridiem>
+                </meridiemNames>
+                <eraNames>
+                    <era>BC</era>
+                    <era>AD</era>
+                </eraNames>
+            </calendarSymbols>
+            <datePatterns>
+                <datePattern name="full">EEEE, MMMM D, YYYY</datePattern>
+                <datePattern name="long">MMMM D, YYYY</datePattern>
+                <datePattern name="med">MMM D, YYYY</datePattern>
+                <datePattern name="short">M/D/YY</datePattern>
+            </datePatterns>
+            <timePatterns>
+                <timePattern name="full">h:MM:SS A Z</timePattern>
+                <timePattern name="long">h:MM:SS A Z</timePattern>
+                <timePattern name="med">h:MM:SS A</timePattern>
+                <timePattern name="short">h:MM A</timePattern>
+            </timePatterns>
+            <dateTimeSymbols>GyMdkHmsSEDFwWahKzZ</dateTimeSymbols>
+            <numberPatterns>
+                <numberPattern name="numeric">z,zz9.zzz</numberPattern>
+                <numberPattern name="currency">$z,zz9.99|($z,zz9.99)</numberPattern>
+                <numberPattern name="percent">z,zz9%</numberPattern>
+            </numberPatterns>
+            <numberSymbols>
+                <numberSymbol name="decimal">.</numberSymbol>
+                <numberSymbol name="grouping">,</numberSymbol>
+                <numberSymbol name="percent">%</numberSymbol>
+                <numberSymbol name="minus">-</numberSymbol>
+                <numberSymbol name="zero">0</numberSymbol>
+            </numberSymbols>
+            <currencySymbols>
+                <currencySymbol name="symbol">$</currencySymbol>
+                <currencySymbol name="isoname">USD</currencySymbol>
+                <currencySymbol name="decimal">.</currencySymbol>
+            </currencySymbols>
+            <typefaces>
+                <typeface name="Myriad Pro"/>
+                <typeface name="Minion Pro"/>
+                <typeface name="Courier Std"/>
+                <typeface name="Adobe Pi Std"/>
+                <typeface name="Adobe Hebrew"/>
+                <typeface name="Adobe Arabic"/>
+                <typeface name="Adobe Thai"/>
+                <typeface name="Kozuka Gothic Pro-VI M"/>
+                <typeface name="Kozuka Mincho Pro-VI R"/>
+                <typeface name="Adobe Ming Std L"/>
+                <typeface name="Adobe Song Std L"/>
+                <typeface name="Adobe Myungjo Std M"/>
+            </typefaces>
+        </locale>
+    </localeSet>
+    
+    <xfa:datasets xmlns:xfa="http://www.xfa.org/schema/xfa-data/1.0/">
+        <xfa:data>
+            <iText_XFAInvoice>
+                <CustomerDetails>
+                    <TextField_CompanyName>HH Mining operations</TextField_CompanyName>
+                    <TextField_ContactPerson>The Baron</TextField_ContactPerson>
+                    <TextField_email>Vladimir@Harkonnen.ar</TextField_email>
+                    <NumericField_TelephoneNumber>(123) 456-7890</NumericField_TelephoneNumber>
+                </CustomerDetails>
+                <Subform_CoreDescription xfa:dataNode="dataGroup"/>
+                <Subform_Order>
+                    <NumericField_NrLicenses>2.00000000</NumericField_NrLicenses>
+                    <TextField_CompanyName>Giedi Prime</TextField_CompanyName>
+                    <RadioButtonList_Language>1</RadioButtonList_Language>
+                    <DropDownList_Type>2</DropDownList_Type>
+                    <DropDownList_ServerDesktop>2</DropDownList_ServerDesktop>
+                    <TextField_DeveloperAlias>Piter</TextField_DeveloperAlias>
+                </Subform_Order>
+                <Subform_pdfHTMLDescription xfa:dataNode="dataGroup"/>
+                <Subform_Order>
+                    <NumericField_NrLicenses>1.00000000</NumericField_NrLicenses>
+                    <TextField_CompanyName>Giedi Prime</TextField_CompanyName>
+                    <RadioButtonList_Language/>
+                    <DropDownList_Type>2</DropDownList_Type>
+                    <DropDownList_ServerDesktop>2</DropDownList_ServerDesktop>
+                    <TextField_DeveloperAlias>Piter</TextField_DeveloperAlias>
+                </Subform_Order>
+                <Subform_Order>
+                    <NumericField_NrLicenses>3.00000000</NumericField_NrLicenses>
+                    <TextField_CompanyName>Giedi Prime</TextField_CompanyName>
+                    <RadioButtonList_Language>1</RadioButtonList_Language>
+                    <DropDownList_Type>1</DropDownList_Type>
+                    <DropDownList_ServerDesktop>1</DropDownList_ServerDesktop>
+                    <TextField_DeveloperAlias/>
+                </Subform_Order>
+                <Subform_Order>
+                    <NumericField_NrLicenses>2.00000000</NumericField_NrLicenses>
+                    <TextField_CompanyName>Giedi Prime</TextField_CompanyName>
+                    <RadioButtonList_Language/>
+                    <DropDownList_Type>1</DropDownList_Type>
+                    <DropDownList_ServerDesktop>1</DropDownList_ServerDesktop>
+                    <TextField_DeveloperAlias/>
+                </Subform_Order>
+            </iText_XFAInvoice>
+        </xfa:data>
+    </xfa:datasets>
+    <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.2-c001 63.139439, 2011/06/07-10:39:26        ">
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                  
+            <rdf:Description xmlns:xmp="http://ns.adobe.com/xap/1.0/" rdf:about="">
+                         
+                <xmp:MetadataDate>2017-10-19T13:50:56Z</xmp:MetadataDate>
+                         
+                <xmp:CreatorTool>Adobe LiveCycle Designer 11.0</xmp:CreatorTool>
+                         
+                <xmp:ModifyDate>2017-10-19T15:41:27+02:00</xmp:ModifyDate>
+                         
+                <xmp:CreateDate>2017-10-16T16:49:46+02:00</xmp:CreateDate>
+                      
+            </rdf:Description>
+                  
+            <rdf:Description xmlns:pdf="http://ns.adobe.com/pdf/1.3/" rdf:about="">
+                         
+                <pdf:Producer>Adobe LiveCycle Designer 11.0</pdf:Producer>
+                      
+            </rdf:Description>
+                  
+            <rdf:Description xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" rdf:about="">
+                         
+                <xmpMM:DocumentID>uuid:18a2777d-4a92-43d4-bc40-1354463f097b</xmpMM:DocumentID>
+                         
+                <xmpMM:InstanceID>uuid:447ab9c1-15a0-41ae-9eb6-17ed8057529c</xmpMM:InstanceID>
+                      
+            </rdf:Description>
+                  
+            <rdf:Description xmlns:dc="http://purl.org/dc/elements/1.1/" rdf:about="">
+                         
+                <dc:format>application/pdf</dc:format>
+                      
+            </rdf:Description>
+                  
+            <rdf:Description xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/" rdf:about="">
+                         
+                <desc:version rdf:parseType="Resource">
+                                
+                    <rdf:value>11.0.0.20130303.1.892433.887364</rdf:value>
+                                
+                    <desc:ref>/template/subform[1]</desc:ref>
+                             
+                </desc:version>
+                      
+            </rdf:Description>
+               
+        </rdf:RDF>
+    </x:xmpmeta>
+    <xfdf xmlns="http://ns.adobe.com/xfdf/" xml:space="preserve">
+   <annots/>
+</xfdf>
+    <form xmlns="http://www.xfa.org/schema/xfa-form/2.8/" checksum="j4FgCHOe5IPD1VNfOkOUuxz7s3o=">
+        <subform name="iText_XFAInvoice">
+            <instanceManager name="_CustomerDetails"/>
+            <subform name="CustomerDetails">
+                <field name="TextField_CompanyName">
+                    <value override="1"/>
+                </field>
+                <field name="TextField_ContactPerson">
+                    <value override="1"/>
+                </field>
+                <field name="TextField_email">
+                    <value override="1"/>
+                </field>
+                <field name="NumericField_TelephoneNumber">
+                    <value override="1"/>
+                </field>
+            </subform>
+            <instanceManager name="_Orders"/>
+            <subform name="Orders">
+                <instanceManager name="_Subform_Core"/>
+                <subform name="Subform_Core">
+                    <instanceManager name="_Subform_CoreOrders"/>
+                    <subform name="Subform_CoreOrders">
+                        <instanceManager name="_Subform_Order"/>
+                        <subform name="Subform_Order">
+                            <field name="NumericField_NrLicenses">
+                                <value override="1"/>
+                            </field>
+                            <field name="NumericField_TotalPrice">
+                                <value>
+                                    <float>6000.00000000</float>
+                                </value>
+                            </field>
+                            <field name="TextField_CompanyName">
+                                <value override="1"/>
+                            </field>
+                            <exclGroup name="RadioButtonList_Language">
+                                <field>
+                                    <value override="1">
+                                        <text>1</text>
+                                    </value>
+                                </field>
+                                <field>
+                                    <value override="1"/>
+                                </field>
+                            </exclGroup>
+                            <field name="DropDownList_Type">
+                                <value override="1"/>
+                            </field>
+                            <field name="DropDownList_ServerDesktop">
+                                <value override="1"/>
+                            </field>
+                            <field access="open" name="TextField_DeveloperAlias" presence="visible">
+                                <value override="1"/>
+                            </field>
+                        </subform>
+                        <subform name="Subform_Order">
+                            <field name="NumericField_NrLicenses">
+                                <value override="1"/>
+                            </field>
+                            <field name="NumericField_TotalPrice">
+                                <value>
+                                    <float>9000.00000000</float>
+                                </value>
+                            </field>
+                            <field name="TextField_CompanyName">
+                                <value override="1"/>
+                            </field>
+                            <exclGroup name="RadioButtonList_Language">
+                                <field>
+                                    <value override="1">
+                                        <text>1</text>
+                                    </value>
+                                </field>
+                                <field>
+                                    <value override="1"/>
+                                </field>
+                            </exclGroup>
+                            <field name="DropDownList_Type"/>
+                            <field name="DropDownList_ServerDesktop">
+                                <value override="1"/>
+                            </field>
+                            <field access="readOnly" name="TextField_DeveloperAlias" presence="hidden"/>
+                        </subform>
+                    </subform>
+                </subform>
+                <instanceManager name="_Subform_pdfHTML"/>
+                <subform name="Subform_pdfHTML">
+                    <instanceManager name="_Subform_pdfHTMLOrders"/>
+                    <subform name="Subform_pdfHTMLOrders">
+                        <instanceManager name="_Subform_Order"/>
+                        <subform name="Subform_Order">
+                            <field name="NumericField_NrLicenses">
+                                <value override="1"/>
+                            </field>
+                            <field name="NumericField_TotalPrice">
+                                <value>
+                                    <float>3000.00000000</float>
+                                </value>
+                            </field>
+                            <field name="TextField_CompanyName">
+                                <value override="1"/>
+                            </field>
+                            <field name="DropDownList_Type">
+                                <value override="1"/>
+                            </field>
+                            <field name="DropDownList_ServerDesktop">
+                                <value override="1"/>
+                            </field>
+                            <field access="open" name="TextField_DeveloperAlias" presence="visible">
+                                <value override="1"/>
+                            </field>
+                        </subform>
+                        <subform name="Subform_Order">
+                            <field name="NumericField_NrLicenses">
+                                <value override="1"/>
+                            </field>
+                            <field name="NumericField_TotalPrice">
+                                <value>
+                                    <float>6000.00000000</float>
+                                </value>
+                            </field>
+                            <field name="TextField_CompanyName">
+                                <value override="1"/>
+                            </field>
+                            <field name="DropDownList_Type"/>
+                            <field name="DropDownList_ServerDesktop">
+                                <value override="1"/>
+                            </field>
+                            <field access="readOnly" name="TextField_DeveloperAlias" presence="hidden"/>
+                        </subform>
+                    </subform>
+                </subform>
+            </subform>
+            <pageSet>
+                <pageArea name="Page"/>
+                <pageArea name="Page"/>
+            </pageSet>
+        </subform>
+    </form>
+</xdp:xdp>
