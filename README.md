@@ -1,3 +1,6 @@
+Using VSC
+
+
 __Quick Setup__
 
 1. Cmd + shift + p
