@@ -1,3 +1,8 @@
+__Functionalities used__
+
+Extract XML, update XML fields, fill PDF/XFA, flatten PDF/XFA
+To start up, make sure that the run.sh file is executable after downloading (see step 12 below), and run that to install dependencies and code.
+
 Using VSC
 
 
