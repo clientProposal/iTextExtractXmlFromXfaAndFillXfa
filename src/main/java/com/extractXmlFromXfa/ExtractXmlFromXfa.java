@@ -16,8 +16,11 @@ import com.itextpdf.kernel.pdf.PdfReader;
 import com.itextpdf.kernel.pdf.PdfWriter;
 
 public class ExtractXmlFromXfa {
-    static String xmlOutput = System.getProperty("user.dir") + "/src/main/resources/output/xfa_example.xml";
-    static String src = System.getProperty("user.dir") + "/src/main/resources/xfa_invoice_example.pdf";
+    static String xmlOutput = System.getProperty("user.dir") + "/src/main/resources/output/xfa_example.xml"; 
+    static String src = System.getProperty("user.dir") + "/src/main/resources/xfa_invoice_example.pdf"; 
+    // static String xmlOutput = System.getProperty("user.dir") + "/src/main/resources/output/xfa_example_ADS_provisional.xml"; // to delete
+    // static String src = System.getProperty("user.dir") + "/src/main/resources/ADS-provisional.pdf"; // to delete
+
 
         public static void getXmlFromPdfXfa() {
         try {

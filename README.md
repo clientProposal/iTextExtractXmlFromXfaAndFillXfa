@@ -32,7 +32,12 @@ __iText setup__
 
 15. Pom, to dependencies:
 ```xml
- <dependency>
+  <dependency>
+    <groupId>com.itextpdf</groupId>
+    <artifactId>commons</artifactId>
+    <version>9.2.0</version>
+    </dependency>
+    <dependency>
       <groupId>com.itextpdf</groupId>
       <artifactId>kernel</artifactId>
       <version>9.2.0</version>
@@ -60,9 +65,21 @@ __iText setup__
     <dependency>
       <groupId>com.itextpdf.licensing</groupId>
       <artifactId>licensing-base</artifactId>
-      <version>4.2.2</version>
+      <version>${itext.licensekey.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>2.0.16</version>
     </dependency>
 ```
+
+...and properties:
+
+```xml
+    <itext.licensekey.version>4.2.2</itext.licensekey.version>
+    <pdfxfa.version>5.0.2</pdfxfa.version>
+  ```
 
 __iText Licence Setup__
 
